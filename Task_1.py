@@ -2,8 +2,14 @@
 a=float(input("Enter the first number: "))
 b=float(input("Enter the second number: "))
 
-#Performing and displaying the desired operations
-print("Addition:", a+b)
-print("Subtraction:", a-b)
-print("Multiplication:", a*b)
-print("Division:", a/b)
+#Performing the desired operations
+add = a + b
+sub = a - b
+mul = a * b
+div = a / b
+
+#Displaying the results
+print("\nAddition:", add)
+print("Subtraction:", sub)
+print("Multiplication:", mul)
+print("Division:", div)
